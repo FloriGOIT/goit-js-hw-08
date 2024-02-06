@@ -17,7 +17,7 @@ const createList = galleryItems
                                         </a>
                                      </li>`)
 .join("");
- container.insertAdjacentHTML("beforeend", createList);
+container.insertAdjacentHTML("beforeend", createList);
 const displayList = new SimpleLightbox(".gallery a", {captionDelay : 200, captionsData : "alt" });
 
 
