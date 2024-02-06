@@ -20,5 +20,7 @@ const createList = galleryItems
 container.insertAdjacentHTML("beforeend", createList);
 const displayList = new SimpleLightbox(".gallery a", {captionDelay : 200, captionsData : "alt" });
 
+//l-am facut la clasa..yeyyyy
+
 
 
